@@ -5,8 +5,7 @@
 #include <ctype.h>
 
 int main(int argc, string argv[]){
-    
-    
+        
     // key input from user
     string key = argv[1];
     int shift;
@@ -28,10 +27,12 @@ int main(int argc, string argv[]){
     		}
     	}
     }
+    
     // get the length of the key 
     keylen = strlen(key);
     string plaintxt = get_string();// prompt user to input plaintext
     int j = 0;
+    
     for(int i = 0; i < strlen(plaintxt); i++){
         // get key for letter
     	int letter = tolower(key[j % keylen]) - 'a';
