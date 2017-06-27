@@ -14,7 +14,7 @@ int main(int argc, string argv[]){
     // get defensive
     if(argc != 2){
         
-        printf("Invalide amount of arguments! Please try again.\n");
+        printf("Invalid amount of arguments! Please try again.\n");
         return 1;
     }
     else{
